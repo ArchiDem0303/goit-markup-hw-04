@@ -307,6 +307,8 @@ body {
 }
 .team-social-icon {
     fill: #afb1b8;
+    height: 20px;
+    width: 20px;
 }
 .clients-section {
     padding-left: 15px;
@@ -366,6 +368,8 @@ body {
     margin: auto;
     padding: auto;
     width: 1200px;
+    padding: 60px 15px 60px 15px;
+    display: flex;
 }
 .footer {
     background: #2f303a;
@@ -402,6 +406,7 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--header-text-color1);
+    margin-top: 20px;
     margin-bottom: 9px;
 }
 .footer-contacks-item {
@@ -432,6 +437,10 @@ body {
 .footer-tel:focus {
     color: var(--accent-color);
 }
+.footer-socials {
+    margin-left: 70px;
+    margin-top: 12px;
+}
 .footer-socials-title {
     font-weight: bold;
     font-size: 14px;
@@ -441,12 +450,23 @@ body {
     color: var(--header-text-color1);
     margin-bottom: 20px;
 }
-.footer-socials {
-    display: inline-block;
-    align-items: center;
+.footer-socials-list {
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
     justify-content: center;
 }
-
+.footer-socials-item {
+    width: 44px;
+    height: 44px;
+}
+.footer-socials-item + .footer-socials-item {
+    margin-left: 10px;
+}
+.footer-social-link {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--header-text-color1);
+}
 /*---------------PORTFOLIO-------------*/
 .visually-hidden {
     position: absolute;
