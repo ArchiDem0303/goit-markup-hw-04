@@ -185,6 +185,15 @@ body {
 .characteristic-list {
     display: flex;
 }
+.characteristic-list-block-icon {
+    width: 270px;
+    height: 120px;
+    background-color: #f5f4fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
 .characteristic-text {
     font-weight: normal;
     font-size: 14px;
@@ -283,8 +292,72 @@ body {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    display: block;
-    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.team-social-link:hover,
+.team-social-link:focus {
+    background-color: var(--accent-color);
+    color: var(--header-text-color1);
+}
+.team-social-link:hover .team-social-icon,
+.team-social-link:focus .team-social-icon {
+    fill: var(--header-text-color1);
+}
+.team-social-icon {
+    fill: #afb1b8;
+}
+.clients-section {
+    padding-left: 15px;
+}
+.clients-container {
+    margin: auto;
+    padding: auto;
+    width: 1170px;
+}
+.clients-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+    text-align: center;
+    margin-top: 94px;
+    margin-bottom: 50px;
+}
+.clients-list {
+    display: flex;
+    margin-bottom: 94px;
+    align-items: center;
+}
+.clients-item {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-left: 30px;
+}
+.clients-item:first-child {
+    margin-left: 0;
+}
+.clients-item-link {
+    width: 170px;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #afb1b8;
+}
+.clients-item-link:hover,
+.clients-item-link:hover {
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+}
+.clients-item-link:hover .clients-item-icon,
+.clients-item-link:hover .clients-item-icon {
+    fill: var(--accent-color);
 }
 .footer-main-container {
     background: #2f303a;
@@ -358,6 +431,20 @@ body {
 .footer-tel:hover,
 .footer-tel:focus {
     color: var(--accent-color);
+}
+.footer-socials-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--header-text-color1);
+    margin-bottom: 20px;
+}
+.footer-socials {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
 }
 
 /*---------------PORTFOLIO-------------*/
